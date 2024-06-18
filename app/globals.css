@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #fbab7e;
+  --primary-color-light-100: #fff7f2;
+  --primary-color-light-200: #ffeee5;
+  --primary-color-light-300: #ffe6d9;
+  --primary-color-light-400: #ffdecc;
+  --primary-color-light-500: #ffd6bf;
+  --primary-color-light-600: #ffcdb2;
+  --primary-color-light-700: #fec5a5;
+  --primary-color-light-800: #fdbc98;
+  --primary-color-light-900: #fcb48b;
+  --secondary-color: #F7CE68;
+  --secondary-color-light-100: #fefaf1;
+  --secondary-color-light-200: #fef6e3;
+  --secondary-color-light-300: #fdf1d5;
+  --secondary-color-light-400: #fcecc7;
+  --secondary-color-light-500: #fbe7b8;
+  --secondary-color-light-600: #fae2aa;
+  --secondary-color-light-700: #fadd9a;
+  --secondary-color-light-800: #f9d88b;
+  --secondary-color-light-900: #f8d37a;
+}
+
+
+.prose-base :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0 !important;
+}
+
+.prose-base :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.prose-base :where(figure):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0 !important; 
+  margin-bottom: 0 !important; 
+}
+
+.prose-base :where(ul):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.prose-base :where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
