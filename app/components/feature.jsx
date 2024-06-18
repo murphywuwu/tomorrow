@@ -13,7 +13,7 @@ export const Feature = () => {
       <h2 className="text-center !my-0">
         Seamlessly Build
         {' '}
-        <span className="mr-[-0.4em] ml-[-0.4em] text-current bg-[linear-gradient(to_right,var(--primary-color-light-500),var(--primary-color)_4%,var(--primary-color-light-500))] box-decoration-clone my-[0em] px-[0.4em] py-[0.1em] rounded-[0.8em_0.3em] bg-transparent">Landing Page</span>
+        <span className="mr-[-0.4em] ml-[-0.2em] text-current bg-[linear-gradient(to_right,var(--primary-color-light-500),var(--primary-color)_4%,var(--primary-color-light-500))] box-decoration-clone my-[0em] px-[0.4em] py-[0.1em] rounded-[0.8em_0.3em] bg-transparent">Landing Page</span>
       </h2>
       <div className="gap-y-4">
         <div className="flex flex-wrap items-center justify-between p-8 w-full">
