@@ -26,8 +26,9 @@ export const Feature = () => {
             <p className="text-gray-500 !font-light">
               description description description description description description description description description description description description description description description 
             </p>
+            <button className="btn btn-wide bg-gradient-to-tl from-primary to-secondary text-white" href="#">Start for free</button>
           </div>
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full mt-6 lg:mt-0 lg:w-[40%]">
             <div className="card shadow-xl">
               <div className="absolute top-0 flex w-full justify-center">
                 <motion.div
@@ -65,8 +66,9 @@ export const Feature = () => {
             <p className="text-gray-500">
               description description description description description description description description description description description description description description description 
             </p>
+            <button className="btn btn-wide bg-gradient-to-tl from-primary to-secondary text-white" href="#">Start for free</button>
           </div>
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full mt-6 lg:mt-0 lg:w-[40%]">
             <div className="card shadow-xl">
               <div className="absolute top-0 flex w-full justify-center">
                 <motion.div
@@ -105,8 +107,9 @@ export const Feature = () => {
             <p className="text-gray-500">
               description description description description description description description description description description description description description description description
             </p>
+            <button className="btn btn-wide bg-gradient-to-tl from-primary to-secondary text-white" href="#">Start for free</button>
           </div>
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full mt-6 lg:mt-0 lg:w-[40%]">
             <div className="card shadow-xl">
               <div className="absolute top-0 flex w-full justify-center">
                 <motion.div
